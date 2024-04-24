@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portafolio/static/css/main.6d887e38.css",
+    "main.js": "/portafolio/static/js/main.567a8426.js",
+    "static/js/453.7d1ffe6d.chunk.js": "/portafolio/static/js/453.7d1ffe6d.chunk.js",
+    "static/media/logoOD.png": "/portafolio/static/media/logoOD.1033397a4927df1e79ff.png",
+    "static/media/psoFoto.jpg": "/portafolio/static/media/psoFoto.b37bc82b91a8e53580c2.jpg",
+    "static/media/PSandovalCV.pdf": "/portafolio/static/media/PSandovalCV.f0eabd226b7329aa0665.pdf",
+    "static/media/reactLogo.jpg": "/portafolio/static/media/reactLogo.58fa172785e3639525ec.jpg",
+    "static/media/gitLogo.jpg": "/portafolio/static/media/gitLogo.8dd3688bb1415872d423.jpg",
+    "static/media/flechaAbajo.png": "/portafolio/static/media/flechaAbajo.21bdaab825857c6bc88c.png",
+    "static/media/cssLogo.jpg": "/portafolio/static/media/cssLogo.917e165d2e575a017eb2.jpg",
+    "static/media/swagger.jpg": "/portafolio/static/media/swagger.0833db995beb69c95e09.jpg",
+    "static/media/postgreLogo.jpg": "/portafolio/static/media/postgreLogo.4ecff6d40c4786f0b7e6.jpg",
+    "static/media/javaLogo.jpg": "/portafolio/static/media/javaLogo.a245ea28281ed2209137.jpg",
+    "static/media/sqlLogo.jpg": "/portafolio/static/media/sqlLogo.4676ad983d6bd3e9fac9.jpg",
+    "index.html": "/portafolio/index.html",
+    "main.6d887e38.css.map": "/portafolio/static/css/main.6d887e38.css.map",
+    "main.567a8426.js.map": "/portafolio/static/js/main.567a8426.js.map",
+    "453.7d1ffe6d.chunk.js.map": "/portafolio/static/js/453.7d1ffe6d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d887e38.css",
+    "static/js/main.567a8426.js"
+  ]
+}
