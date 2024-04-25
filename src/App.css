@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    scrollbar-width: none;     
+    scroll-behavior: smooth;
+}
+.app{   
+    box-sizing: border-box;    
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+            /* <!--Mobile--> */
+
+@media screen and (max-width: 768px){
+    *{
+    scrollbar-width: none;
+    overflow-x: hidden; 
+        
+    }
+                  
+.navBar{
+height: 125px;
+position: fixed;
+background-color: #081b29;
+justify-content: flex-start;
+overflow: visible;
+
+    .leftNB{
+    width: 50%;
+    padding: 0;
+    margin-left: 3rem;
+    }
+
+    .rightNB{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 250px;
+        flex-direction: column;
+        padding: 1rem;
+        transform: translateX(-100%);
+        transition: 0.3s ease all;
+        background-color: #112e42;
+        box-shadow: 0px -16px 24px 0px #003f67 inset;
+
+            a{
+                display: flex;
+                justify-content: center;
+                font-size: 25px;
+                color: #2484c8;
+                font-weight: 600;
+            }    
+        }
+
+    .rightNB.open{
+        transform: translateX(0) !important;
+    }
+
+    .nav_toggle{
+        display: flex  !important;
+        flex-direction: column;
+        margin: 15px;
+        position: relative;
+        left: 80px;
+    }
+    
+    .nav_toggle span{
+        width: 45px;
+        height: 7px;
+        background: #2484c8;
+        margin-bottom: 5px;
+        border-radius: 2px;
+        transform-origin: 10px 0px;
+        transition: all 0.2s linear;
+    }
+
+    .nav_toggle.open{
+        overflow: visible;
+        
+    }
+
+    .nav_toggle.open > span{
+        transform: rotate(35deg) translate(0px , 0px);
+    }
+    .nav_toggle.open > span:nth-child(2){
+    display: none;
+    }
+    .nav_toggle.open > span:nth-child(3){
+        transform: rotate(-35deg) translate(-5px , 0px);
+    }
+
+} 
+            
+.principal{
+    display: flex;
+    height: 100%;
+    position: static;
+    flex-direction: column-reverse;
+    padding: 125px 0px 15px 0px;
+    }
+    
+    .imgPrincipal{
+    display: flex;
+    width: 100%;
+    margin: 15px 0px 15px 0px;
+    justify-self: center;
+                        
+    .box{
+    width: 350px;
+    height: 350px;
+    }       
+    
+    .content{
+    width: 280px;
+    height: 280px;
+    }
+            
+}
+              
+    .infoPrincipal{
+        flex-wrap: wrap;
+        width: 90%;
+                   
+        .container{
+            position: static;
+            width: 90%;
+            }
+        
+            .textoAnimado{
+                display: flex;
+                width: 90%;
+                }
+            
+            h3,h1{
+                font-size: 25px;
+              }
+                  
+            p{
+                font-size: 14px;
+              }
+              .infoButtons{
+                    flex-direction: column;
+                    align-items: center;
+                    
+                    .infoButtonOne, .infoButtonTwo{
+                       display: inline;
+                        margin: 10px;
+                        box-shadow: 0 0 .5em .25em var(--glow-color),
+                       0 0 2em .5em var(--glow-spread-color),
+                        inset 0 0 .75em .25em var(--glow-color);
+                                                
+                    }
+                
+                
+                }
+                
+                
+            
+                .flechaAbajo{
+                    display: none;
+                }
+                  
+    }
+               
+                /*------------ <!--Skills--> ---------------*/
+    .skills{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        position: static;
+        justify-content: center;
+    }
+                
+    .skillsSec{
+    display: flex;
+    width: 90%;
+    height: 100%;
+    overflow: visible;
+                                    
+    .infoSkills{        
+        h1{
+            overflow: visible;
+        }
+    p{
+    text-align: justify;
+    }
+    
+}
+                    
+    .cardSkill{
+        overflow: visible;
+        width: 100%;                      
+        height: 100%;
+
+        .listaSkills{
+            overflow: visible;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+                li{
+                    overflow: visible;
+                    height: 150px;
+                    width: 160px;
+                    }
+                        
+                    .springBLogo{
+                        width: 50px;
+                        height: 50px;
+                    }
+                    h2{
+                        text-align: center;
+                        font-size: 16px;
+                        background-color: transparent;
+                    }
+            }            
+                    
+    
+    } 
+}            
+                /*------------ <!--Services--> ---------------*/
+    .services{
+    
+        .servicesSec{
+            overflow: visible;
+
+            .titleServicios{
+                overflow: visible;
+            }
+
+            .contenedor_Srv{
+                height: 1100px;
+                margin-bottom: 50px;
+
+                .cardOneInfo{
+                    width: 80%;
+                }
+                .cardTwoInfo{
+                    width: 80%;
+                }
+                .cardThreeInfo{
+                    width: 80%;
+                }
+                        
+            }        
+        }
+        
+    
+    }
+                        
+                /*------------ <!--Contact--> ---------------*/
+    .contacto{
+    display: flex;
+    height: 100%;
+    position: static;
+    align-content: center;
+
+    .containerCnt{
+    
+        .contInfo{
+            h1{
+                overflow: visible;
+            }
+        }
+        
+        .contLeft{
+            display: flex;
+            width: 100%;
+
+            ul.listainfo{
+                display: flex;
+                
+                .itemw, .itemgm{
+                    /* background-color: transparent; */
+
+                    .iconW, .iconGm{
+                        display: flex;
+                        width: 5%;
+                    }
+                }   
+            }            
+
+            h2{
+                overflow: visible;
+            }   
+        }
+
+        .contRight{
+            width: 100%;
+            margin-bottom: 25px;
+            h2{
+                text-align: center;
+                padding: 25px 0 25px 0;
+                overflow: visible;
+            }
+        }
+    }
+    }
+
+    /*------------ <!--Piepag--> ---------------*/
+    .piepag{
+    display:inline;
+    h5{
+        text-align: center;
+        font-size: 12px;
+    }
+    }
+}
+              

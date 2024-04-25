@@ -1,0 +1,256 @@
+.contacto{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  height: calc(100vh - 75px);    
+  overflow: hidden;
+  background: #112e42;
+
+  .containerCnt{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    margin-top: 75px;
+    justify-content: center;
+    overflow: hidden;
+        
+      .contInfo{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        height: 75px;
+            
+
+        h1{
+          color: aliceblue;
+          text-shadow:0px 0px 25px #00abf0;
+          -webkit-text-stroke: .5px #2cc7ff;
+          font-size: 26px;
+          margin-top: 10px;
+          }
+      }
+
+      .contLeft{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 30%;
+        height: 70%;
+        align-items: center;
+        /* <--!Tarjet card-->*/
+        
+        .contenedorCnt {
+          width: 300px;
+          height: 200px;
+          background: black;
+          position: relative;
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.438);
+          overflow: hidden;
+          border-radius: 10px;
+        }
+        
+        div.cardCnt {
+          display: flex;
+          cursor: default;
+          width: 100%;
+          height: 100%;
+          position: relative;
+          z-index: 2;
+          align-items: center;
+          justify-content: center;
+          font-size: 16px;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          color: #00abf0;
+          background-color: rgba(255, 255, 255, 0.074);
+          border: 1px solid rgba(255, 255, 255, 0.222);
+          -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+          border-radius: 10px;
+          transition: all ease .3s;
+
+          flex-direction: column;
+        }
+        
+        .contenedorCnt::after,
+        .contenedorCnt::before {
+          width: 100px;
+          height: 100px;
+          content: '';
+          position: absolute;
+          border-radius: 50%;
+          transition: .5s linear;
+        }
+        
+        .contenedorCnt::after {
+          top: -20px;
+          left: -20px;
+          background-color: #00416A;
+          animation: animFirst 5s linear infinite;
+        }
+        
+        .contenedorCnt::before {
+          background-color: #00abf0;
+          top: 70%;
+          left: 70%;
+          animation: animSecond 5s linear infinite;
+          animation-delay: 3s;
+        }
+        
+        .contenedorCnt:hover {
+          box-shadow: 0px 0px 10px rgba(0, 77, 32, 0.432)
+        }
+        
+        .contenedorCnt:hover::after {
+          left: 80px;
+          transform: scale(1.2);
+        }
+        
+        .contenedorCnt:hover::before {
+          left: -10px;
+          transform: scale(1.2);
+        }
+
+      /*iconos*/
+
+      .listainfo{
+        flex-direction: column;
+        font-size: 14px;
+        text-transform: lowercase;
+        padding: 0;
+      }
+
+      .itemw, .itemgm{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 5px;
+      }
+      .iconW,.iconGm{
+        padding: 8px;
+      }
+
+        /* end tarjet */
+
+      h2{
+        color: aliceblue;
+          text-shadow:0px 0px 25px #00abf0;
+          -webkit-text-stroke: .5px #2cc7ff;
+          margin-top: 25px;
+      }
+
+      /*redes sociales*/
+
+      div.redesSociales {
+        display: flex;
+        width: fit-content;
+        height: fit-content;
+        background-color: transparent;
+        align-items: center;
+        justify-content: center;
+        padding: 25px 25px;
+        gap: 20px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+      }
+
+      /* for all social containers*/
+      .socialContainer {
+        display: flex;
+        width: 80px;
+        height: 52px;
+        border-radius: 5px;
+        background-color: rgb(44, 44, 44);
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        transition-duration: 0.3s;
+        padding: 0;
+      }
+      /* instagram*/
+      .containerOne {
+        background-color:#0072b1;
+        transition-duration: 0.3s;
+      }
+
+      .containerOne:hover {
+        background-color:#00abf0;
+        transition-duration: 0.3s;
+      }
+      /* github*/
+      .containerTwo:hover {
+        background-color: #c8c8c8;
+        transition-duration: 0.3s;
+      }
+      /* linkdin*/
+      .containerThree {
+        background-color:  #d62976;
+        transition-duration: 0.3s;
+      }
+
+      .containerThree:hover {
+        background-color:#081b29;
+        transition-duration: 0.3s;
+      }
+
+      .socialContainer:active {
+        transform: scale(0.9);
+        transition-duration: 0.3s;
+      }
+
+      .socialSvg {
+        width: 17px;
+      }
+
+      .socialSvg path {
+        fill: rgb(255, 255, 255);
+      }
+
+      .socialContainer:hover .socialSvg {
+        animation: slide-in-top 0.3s both;
+      }
+
+      @keyframes slide-in-top {
+        0% {
+          transform: translateY(-50px);
+          opacity: 0;
+        }
+
+        100% {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+
+
+      /* end redes sociales*/
+
+      }
+
+      .contRight{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 30%;
+        height: 70%;
+        align-items: center;
+        
+        h2{
+          color: aliceblue;
+          text-shadow:0px 0px 25px #00abf0;
+          -webkit-text-stroke: .5px #2cc7ff;    
+        }
+      
+        .ubicacion{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          width:400px;
+          height:300px;
+        }
+        
+      }
+    }
+}
