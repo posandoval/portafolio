@@ -30,7 +30,7 @@ function Services(){
           ></path>
         </svg>
       </span>
-      <span className="list_text">Paginas web</span>
+      <span className="list_text">Páginas web</span>
     </li>
     <li className="card__list_item">
       <span className="check">
@@ -47,7 +47,7 @@ function Services(){
           ></path>
         </svg>
       </span>
-      <span className="list_text">Diseño e implementacion Backend</span>
+      <span className="list_text">Diseño e implementación Backend</span>
     </li>
     <li className="card__list_item">
       <span className="check">
@@ -127,7 +127,7 @@ function Services(){
           ></path>
         </svg>
       </span>
-      <span className="list_text">Resolición de incidencias</span>
+      <span className="list_text">Resolución de incidencias</span>
     </li>
     <li className="card__list_item">
       <span className="check">
@@ -241,7 +241,7 @@ function Services(){
           ></path>
         </svg>
       </span>
-      <span className="list_text">Instalación de despositivos</span>
+      <span className="list_text">Instalación de dispositivos</span>
     </li>
     <li className="card__list_item">
       <span className="check">
@@ -258,7 +258,7 @@ function Services(){
           ></path>
         </svg>
       </span>
-      <span className="list_text">Configuración de despositivos</span>
+      <span className="list_text">Configuración de dispositivos</span>
     </li>
     <li className="card__list_item">
       <span className="check">
