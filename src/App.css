@@ -12,6 +12,7 @@
 
             /* <!--Mobile--> */
 
+
 @media screen and (max-width: 768px){
     *{
     scrollbar-width: none;
@@ -63,7 +64,7 @@ overflow: visible;
         flex-direction: column;
         margin: 15px;
         position: relative;
-        left: 80px;
+        right: -20%;
     }
     
     .nav_toggle span{
@@ -232,6 +233,7 @@ overflow: visible;
             .contenedor_Srv{
                 height: 1100px;
                 margin-bottom: 50px;
+                flex-wrap: wrap; 
 
                 .cardOneInfo{
                     width: 80%;
@@ -307,4 +309,3 @@ overflow: visible;
     }
     }
 }
-              
